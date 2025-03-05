@@ -4,8 +4,8 @@
 #
 mosdns_working_dir="/etc/mosdns"
 mkdir -p /tmp/easymosdns \
-&& curl -C -C https://ghproxy.cc/https://raw.githubusercontent.com/Journalist-HK/Rules/main/akamai_domain_list.txt > /tmp/easymosdns/akamai_domain_list.txt \
-&& curl -C -C https://ghproxy.cc/https://raw.githubusercontent.com/Journalist-HK/Rules/main/block_list.txt > /tmp/easymosdns/block_list.txt \
+&& curl -C https://ghproxy.cc/https://raw.githubusercontent.com/Journalist-HK/Rules/main/akamai_domain_list.txt > /tmp/easymosdns/akamai_domain_list.txt \
+&& curl -C https://ghproxy.cc/https://raw.githubusercontent.com/Journalist-HK/Rules/main/block_list.txt > /tmp/easymosdns/block_list.txt \
 && curl -C https://ghproxy.cc/https://raw.githubusercontent.com/Journalist-HK/Rules/main/cachefly_ipv4.txt > /tmp/easymosdns/cachefly_ipv4.txt \
 && curl -C https://ghproxy.cc/https://raw.githubusercontent.com/Journalist-HK/Rules/main/cdn77_ipv4.txt > /tmp/easymosdns/cdn77_ipv4.txt \
 && curl -C https://ghproxy.cc/https://raw.githubusercontent.com/Journalist-HK/Rules/main/china_domain_list_mini.txt > /tmp/easymosdns/china_domain_list_mini.txt \
